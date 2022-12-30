@@ -42,4 +42,12 @@ To use these features in your Selenium scripts, you can use the __execute_cdp_cm
 
 This code will create a Chrome web browser, navigate to a web page, and use the __execute_cdp_cmd()__ method to retrieve the performance metrics, log, response body for a network request, and source code for a JavaScript script for the Chrome web browser. It will then close the webdriver instance.
 
+The Chrome DevTools Protocol (CDP) is a set of APIs that allows you to interact with the Chrome web browser's internal debugging and inspection tools. It is used by the Chrome web browser to communicate with its own debugger, and it can also be used by external tools like Selenium to interact with the Chrome web browser.
 
+Using the CDP, you can do things like:
+- Retrieve performance metrics, log entries, and network request data from the Chrome web browser.
+- Inspect and modify the DOM, CSS, and JavaScript code of a web page.
+- Debug and profile JavaScript code.
+- Monitor and control the Chrome web browser's network activity.
+
+There are many other CDP commands that you can use with Selenium, depending on your needs. You can find a full list of available commands in the Chrome DevTools Protocol Viewer at https://chromedevtools.github.io/devtools-protocol/.
